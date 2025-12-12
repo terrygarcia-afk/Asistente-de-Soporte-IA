@@ -8,17 +8,17 @@ Este repositorio contiene un MVP de **IA generativa** para automatizar respuesta
 Se entrenó un modelo tipo GPT-2 en español mediante **fine-tuning** con un dataset del dominio y se desplegó una interfaz web con **Gradio**.
 
 ## Enlaces
-- **Notebook (Google Colab):** [PON AQUÍ EL LINK DE TU COLAB]
-- **Aplicación desplegada (Hugging Face Space):** [PON AQUÍ EL LINK DE TU SPACE]
+- **Notebook (Google Colab):** https://colab.research.google.com/drive/12GrqqZKW9q527PQaZTqdaXb5QlECuZWS#scrollTo=l61UEk3oeIk2
+- **Aplicación desplegada (Hugging Face Space):** https://huggingface.co/spaces/terrygarcia/soporte-ia-generativa
 
 ---
 
 ## Estructura del proyecto
 
 - `colab/` (opcional)  
-  Contiene el notebook o export del entrenamiento (si lo subiste aquí).
+  Contiene el notebook o export del entrenamiento.
 - `dataset/` (opcional)  
-  Dataset final en formato JSON/CSV (si lo incluyes).
+  Dataset final en formato JSON/CSV.
 - `finetuned_model.zip`  
   Modelo ajustado (exportado) listo para cargar en la app.
 - `app.py`  
@@ -44,5 +44,5 @@ Se entrenó un modelo tipo GPT-2 en español mediante **fine-tuning** con un dat
 
 1) Clona el repositorio:
 ```bash
-git clone [PON AQUÍ EL URL DE TU REPO]
-cd [NOMBRE-DE-TU-REPO]
+git clone https://github.com/terrygarcia-afk/Asistente-de-Soporte-IA
+cd Asistente-de-Soporte-IA
